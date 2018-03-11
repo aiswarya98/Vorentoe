@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:scrollbars="none"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scrollView2">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#C5CAE9"
+    tools:context="com.example.car.vorento.MainAboutus">
+<TextView
+    android:layout_width="match_parent"
+    android:textColor="#000"
+    android:layout_height="wrap_content"
+    android:text="@string/Q1"
+    />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Awesome! Life's great"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Okaish"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Really bad"/>
+    </RadioGroup>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="@string/Q2"
+        />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="It's okay. I keep trying"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Not happy. I try to motivate myself"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Highly demotivative"/>
+    </RadioGroup>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="@string/Q3"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Positively. I try to improvise myself"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Depends sometimes in a good way sometimes not"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I hate when others criticise me "/>
+    </RadioGroup>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="@string/Q4"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fit and fine!"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Moderately fit"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:text="I often fall sick"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="@string/Q5"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:text="Very comfortable! I have many friends"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I am fine with it. I talk only to selected people"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I hate talking to or being with other people"/>
+    </RadioGroup>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="@string/Q6"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:text="Absolutely "
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:text="Mostly but not completely"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:text="No, I hate being me"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="@string/Q7"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:text="High"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:text="Average"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:text="Low"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="@string/Q8"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:text="Good"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:text="Average"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:text="Low"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="@string/Q9"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:text="No not at all. Parents treat us equally"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:text="Sometimes"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:text="Everytime"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="@string/Q10"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:text="Do anything that makes me happy"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:text="Nothing much, just wait for things to be back to normal"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:text="I get depressed and there is nothing i can do about it"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="@string/Q11"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:text="Nope! I try to be optimistic"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:text="Ya sometimes"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:text="Most of the times"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="@string/Q12"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:text="Good"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:text="Average"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:text="Poor"
+            android:layout_height="wrap_content" />
+
+    </RadioGroup>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="@string/Q13"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:text="Very kind and supportive"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:text="Good and helpful sometimes"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:text="Very bad. I find them selfish,mean and unkind "
+            android:layout_height="wrap_content" />
+
+    </RadioGroup>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="@string/Q14"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:text="Yes, I exercise daily"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:text="Yes sometimes i do exercise"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:text="No, i am too lazy to exercise"
+            android:layout_height="wrap_content" />
+
+    </RadioGroup>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="@string/Q15"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:text="Not really"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:text="Sometimes it does! Sometimes it doesnt"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:text="A lot! Money can buy you happiness"
+            android:layout_height="wrap_content" />
+
+    </RadioGroup>
+
+<Button android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:layout_gravity="center"
+    android:text="save"
+    android:id="@+id/formsave"/>
+</LinearLayout>
+</ScrollView>
